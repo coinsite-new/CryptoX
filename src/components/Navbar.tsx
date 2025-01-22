@@ -1,3 +1,4 @@
+import React from 'react';
 import { Bitcoin } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -15,7 +16,7 @@ export default function Navbar() {
           </Link>
           <div className="hidden md:flex space-x-8">
             {[
-              { path: '/home', label: 'Home' },
+              { path: '/', label: 'Home' },
               { path: '/features', label: 'Features' },
               { path: '/tokenomics', label: 'Tokenomics' },
               { path: '/roadmap', label: 'Roadmap' }

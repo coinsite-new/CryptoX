@@ -1,9 +1,9 @@
 {
   "name": "vite-react-typescript-starter",
-  "homepage": "https://coinsite-new.github.io/CryptoX",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://coinsite-new.github.io/CryptoX",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
