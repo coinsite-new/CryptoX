@@ -16,7 +16,7 @@ export default function Navbar() {
           </Link>
           <div className="hidden md:flex space-x-8">
             {[
-              { path: '/', label: 'Home' },
+              { path: '/home', label: 'Home' },
               { path: '/features', label: 'Features' },
               { path: '/tokenomics', label: 'Tokenomics' },
               { path: '/roadmap', label: 'Roadmap' }
