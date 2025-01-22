@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <AnimatePresence mode="wait">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/features" element={<Features />} />
             <Route path="/tokenomics" element={<Tokenomics />} />
             <Route path="/roadmap" element={<Roadmap />} />
